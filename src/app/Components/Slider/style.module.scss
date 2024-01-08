@@ -1,0 +1,22 @@
+.contianer {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    height: 500px;
+    @media (max-width: 500px) {
+        height: 300px;
+    }
+    div {
+        height: 100%;
+        width: 95%;
+        // background-color: bisque;
+        margin: auto;
+    
+        @media (max-width: 500px) {
+            width: 100%;
+          }
+     
+    }
+
+
+}
