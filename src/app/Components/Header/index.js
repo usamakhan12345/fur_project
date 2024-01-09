@@ -16,6 +16,8 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Logo from "../../../assets/logo.ico"
 import styles from  "./style.module.scss"
+import Image from 'next/image';
+import { FaPhoneVolume } from "react-icons/fa6";
 
 const pages = ['Products', 'Pricing', 'Blog'];
 
@@ -42,7 +44,7 @@ function ResponsiveAppBar() {
     <AppBar className={styles.headerHead}  sx={{backgroundColor : '#011f41' , height : 80}} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={Logo} height={10}/>
+          {/* <Image  src={Logo} height={50} width={90}/> */}
           <Typography
             variant="h6"
             noWrap
@@ -56,11 +58,12 @@ function ResponsiveAppBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              fontSize : 35
+
             }}
           >
-            LOGO
+           Aqeel Maker Furniture
           </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -96,6 +99,7 @@ function ResponsiveAppBar() {
                 </MenuItem>
               ))}
             </Menu>
+            
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
@@ -114,7 +118,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Aqeel Maker Furniture
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -149,6 +153,7 @@ function ResponsiveAppBar() {
             
             </Menu>
           </Box>
+        
         </Toolbar>
       </Container>
     </AppBar>

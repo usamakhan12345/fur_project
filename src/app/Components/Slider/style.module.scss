@@ -3,16 +3,16 @@
     display: flex !important;
     justify-content: center !important;
     height: 500px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         height: 300px;
     }
     div {
         height: 100%;
-        width: 95%;
+        width: 97%;
         // background-color: bisque;
         margin: auto;
     
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
             width: 100%;
           }
      
