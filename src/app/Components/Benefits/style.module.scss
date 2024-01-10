@@ -25,7 +25,7 @@
 
 
     .benefitsHead {
-        height: 300px;
+        min-height: 300px;
         width: 300px;
         text-align: center;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px;
@@ -39,3 +39,16 @@
         }
     }
 }
+
+// .whatsabIcon{
+//     color: green;
+//     font-size: 50px;
+//     cursor: pointer;
+//     right: 5;
+//     position: fixed;
+//     top: 300px;
+//     :active{
+//         opacity: 0.5;
+
+//     }
+// }

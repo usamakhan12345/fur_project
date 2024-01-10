@@ -19,7 +19,7 @@ import styles from  "./style.module.scss"
 import Image from 'next/image';
 import { FaPhoneVolume } from "react-icons/fa6";
 
-const pages = ['Products', 'Pricing', 'Blog'];
+// const pages = ['Products', 'Pricing', 'Blog'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -54,15 +54,17 @@ function ResponsiveAppBar() {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-              fontWeight: 700,
+              fontWeight: 500,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-              fontSize : 35
+              fontSize : 30
 
             }}
           >
-           Aqeel Maker Furniture
+                      
+           Aqeel Polish Maker 
+
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -93,11 +95,11 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
+              {/* {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
-              ))}
+              ))} */}
             </Menu>
             
           </Box>
@@ -118,9 +120,9 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            Aqeel Maker Furniture
+            Aqeel Polish Maker 
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -130,7 +132,7 @@ function ResponsiveAppBar() {
                 {page}
               </Button>
             ))}
-          </Box>
+          </Box> */}
 
           <Box sx={{ flexGrow: 0 }}>
            

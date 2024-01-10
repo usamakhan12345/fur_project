@@ -11,16 +11,16 @@
 }
 
 .categoryWraper {
-    // height: 300px;
     width: 92%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-evenly;
     margin-top: 40px;
-    // background-color: #011f41;
-    // box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px;
-
+    @media (max-width : 600px) {
+    justify-content: center;
+        
+    }
 
     .itemHead {
         height: 300px;

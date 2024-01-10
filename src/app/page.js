@@ -4,6 +4,7 @@ import Slider from "./Components/Slider/index"
 import Services from './Components/Services'
 import Category from './Components/Category/index'
 import Benefits from "./Components/Benefits"
+import Footer from "./Components/Footer/index"
 const Home = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home = () => {
       <Services/>
       <Category/>
       <Benefits/>
+      <Footer/>
     </> 
   )
 }

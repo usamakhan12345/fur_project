@@ -1,7 +1,10 @@
 .headerHead{
     background-color: '#011f41';
-    height: 85px;
+    height: 72px;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
    
 }
