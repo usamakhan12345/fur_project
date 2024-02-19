@@ -11,10 +11,10 @@ const Footer = () => {
     <div className={styles.footerHead}>
         <h3>GET IN TOUCH</h3>
         <ul>
-            <li><Link href={'www.facebook.com'}><FaFacebook className={styles.Icons}/></Link></li>
+            <li><Link href="https://www.facebook.com/profile.php?id=100063954280796&mibextid=JRoKGi" target='_blank'><FaFacebook className={styles.Icons}/></Link></li>
             <li><Link href={'www.facebook.com'}><FaTwitter className={styles.Icons}/></Link></li>
-            <li><Link href={'www.facebook.com'}><PiWhatsappLogoFill  className={styles.Icons}/></Link></li>
-            <li><Link href={'www.facebook.com'}><CgMail  className={styles.Icons}/></Link></li>
+            <li><Link href="https://wa.me/03120129875" target='_blank'><PiWhatsappLogoFill  className={styles.Icons}/></Link></li>
+            <li><Link href="mailto:shehzadausamakhan@gmail.com"><CgMail  className={styles.Icons}/></Link></li>
         </ul>
         <h5>2024 All Rights Reserved </h5>
     </div>

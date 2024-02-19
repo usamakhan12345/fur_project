@@ -16,6 +16,7 @@ const index = () => {
                     <div>
                         <h3>SAFE SERVICES   </h3>
                         <p>In all maojor cities in Pakistan</p>
+                        <p style={{fontWeight : 'bold'}}>I have more than 20 years of experience</p>
                     </div>
 
                 </div>
